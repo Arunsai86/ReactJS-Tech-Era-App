@@ -1,0 +1,75 @@
+.loader-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-image {
+  width: 50%;
+}
+.failure-heading {
+  font-size: 30px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  margin: 5px;
+}
+.failure-text {
+  font-size: 15px;
+  color: #475569;
+  font-family: 'Roboto';
+  margin: 5px;
+}
+.retry-btn {
+  margin: 5px;
+  font-family: 'Roboto';
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #4656a1;
+  color: #ffffff;
+}
+.Success-container {
+  padding: 20px;
+}
+.success-heading {
+  font-size: 20px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  margin-bottom: 15px;
+}
+.courses-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.item-container {
+  list-style: none;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+}
+.item-logo {
+  width: 60px;
+}
+.item-text {
+  font-family: 'Roboto';
+  font-size: 22px;
+  margin-left: 5px;
+  font-weight: 400;
+}
+.nav-link {
+  text-decoration: none;
+  color: 1e293b;
+}

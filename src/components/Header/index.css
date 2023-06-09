@@ -1,0 +1,13 @@
+* {
+  margin: 0px;
+}
+.nav-container {
+  background-color: #f1f5f9;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+.logo {
+  width: 100px;
+}
